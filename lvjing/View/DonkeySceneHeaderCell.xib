@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="247" id="KGk-i7-Jjw" customClass="DonkeySceneHeaderCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="247"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="246.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="road2" translatesAutoresizingMaskIntoConstraints="NO" id="iDX-e4-ocQ">
+                        <rect key="frame" x="0.0" y="-1" width="320" height="170"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="170" id="6Ch-C7-u1L"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W4a-FN-VyU">
+                        <rect key="frame" x="0.0" y="169" width="78" height="76.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="76.5" id="UiL-8S-4dC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="contentEdgeInsets" minX="4" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="titleEdgeInsets" minX="-47" minY="51" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="-15" maxX="-26" maxY="0.0"/>
+                        <state key="normal" title="攻略" image="label_btn_strategy">
+                            <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bfs-L1-EaP">
+                        <rect key="frame" x="78" y="169" width="78" height="76.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="contentEdgeInsets" minX="4" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="titleEdgeInsets" minX="-47" minY="51" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="-13" maxX="-26" maxY="0.0"/>
+                        <state key="normal" title="资讯" image="label_btn_zixun">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M75-ZP-FfO">
+                        <rect key="frame" x="156" y="169" width="78" height="76.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="contentEdgeInsets" minX="4" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="titleEdgeInsets" minX="-47" minY="51" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="-13" maxX="-26" maxY="0.0"/>
+                        <state key="normal" title="游记" image="label_btn_youji">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jpK-ss-oBX">
+                        <rect key="frame" x="234" y="169" width="78" height="76.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="contentEdgeInsets" minX="4" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <inset key="titleEdgeInsets" minX="-47" minY="51" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="-13" maxX="-26" maxY="0.0"/>
+                        <state key="normal" title="周边" image="label_btn_zhoubian">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner_masking_bg" translatesAutoresizingMaskIntoConstraints="NO" id="l3y-MT-bmn">
+                        <rect key="frame" x="0.0" y="127" width="320" height="42"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="42" id="cUU-Ws-pfg"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="banner_icon_cloud" translatesAutoresizingMaskIntoConstraints="NO" id="0DT-xA-QkC">
+                        <rect key="frame" x="48" y="138" width="21" height="17"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="阴转小雨" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fab-Ru-tHf">
+                        <rect key="frame" x="78" y="139" width="68" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="四川" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8F7-lR-nvW">
+                        <rect key="frame" x="217" y="139" width="34" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="14/3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kmg-zX-Rd8">
+                        <rect key="frame" x="161" y="139" width="58" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jpK-ss-oBX" firstAttribute="top" secondItem="l3y-MT-bmn" secondAttribute="bottom" id="0Gx-Qf-evn"/>
+                    <constraint firstItem="Bfs-L1-EaP" firstAttribute="top" secondItem="iDX-e4-ocQ" secondAttribute="bottom" id="1jA-lh-kly"/>
+                    <constraint firstItem="l3y-MT-bmn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="2nL-kf-el3"/>
+                    <constraint firstItem="Bfs-L1-EaP" firstAttribute="leading" secondItem="W4a-FN-VyU" secondAttribute="trailing" id="9s3-hJ-P8h"/>
+                    <constraint firstItem="jpK-ss-oBX" firstAttribute="leading" secondItem="M75-ZP-FfO" secondAttribute="trailing" id="B70-N1-jFY"/>
+                    <constraint firstItem="iDX-e4-ocQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="BWL-7L-oVD"/>
+                    <constraint firstItem="jpK-ss-oBX" firstAttribute="height" secondItem="W4a-FN-VyU" secondAttribute="height" id="FcH-Bb-wnP"/>
+                    <constraint firstItem="Bfs-L1-EaP" firstAttribute="height" secondItem="W4a-FN-VyU" secondAttribute="height" id="GUX-ti-iwr"/>
+                    <constraint firstItem="M75-ZP-FfO" firstAttribute="height" secondItem="W4a-FN-VyU" secondAttribute="height" id="H3u-Qk-GW0"/>
+                    <constraint firstItem="M75-ZP-FfO" firstAttribute="leading" secondItem="Bfs-L1-EaP" secondAttribute="trailing" id="HJ5-Dh-OAN"/>
+                    <constraint firstItem="Bfs-L1-EaP" firstAttribute="width" secondItem="W4a-FN-VyU" secondAttribute="width" id="PU1-1R-viM"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="iDX-e4-ocQ" secondAttribute="trailing" constant="-8" id="UzW-uH-ghz"/>
+                    <constraint firstItem="jpK-ss-oBX" firstAttribute="top" secondItem="iDX-e4-ocQ" secondAttribute="bottom" id="ah2-h1-SCn"/>
+                    <constraint firstItem="W4a-FN-VyU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="ctU-uD-kuc"/>
+                    <constraint firstItem="jpK-ss-oBX" firstAttribute="width" secondItem="W4a-FN-VyU" secondAttribute="width" id="fMR-nq-dIK"/>
+                    <constraint firstItem="W4a-FN-VyU" firstAttribute="top" secondItem="iDX-e4-ocQ" secondAttribute="bottom" id="iEO-kn-hju"/>
+                    <constraint firstItem="M75-ZP-FfO" firstAttribute="width" secondItem="W4a-FN-VyU" secondAttribute="width" id="ihJ-th-tSL"/>
+                    <constraint firstItem="M75-ZP-FfO" firstAttribute="top" secondItem="iDX-e4-ocQ" secondAttribute="bottom" id="kkA-hv-y9Z"/>
+                    <constraint firstItem="iDX-e4-ocQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-9" id="lPg-ra-fyy"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="jpK-ss-oBX" secondAttribute="trailing" id="qH2-Ti-zzE"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="l3y-MT-bmn" secondAttribute="trailing" constant="-8" id="smJ-PO-ngK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cloudImage" destination="0DT-xA-QkC" id="FZm-r5-H5t"/>
+                <outlet property="gongluoBtn" destination="W4a-FN-VyU" id="nTC-a8-idm"/>
+                <outlet property="locationLabel" destination="8F7-lR-nvW" id="sUo-h8-rPC"/>
+                <outlet property="qiwenLabel" destination="Kmg-zX-Rd8" id="AIM-5K-I3M"/>
+                <outlet property="sceneImageView" destination="iDX-e4-ocQ" id="YeP-s0-UjG"/>
+                <outlet property="weatherLabel" destination="fab-Ru-tHf" id="32W-7g-SvM"/>
+                <outlet property="youjibtn" destination="M75-ZP-FfO" id="pxY-c2-Xqn"/>
+                <outlet property="zhoubianBtn" destination="jpK-ss-oBX" id="x82-oB-T1p"/>
+                <outlet property="zixunBtn" destination="Bfs-L1-EaP" id="a0N-SE-Qak"/>
+            </connections>
+            <point key="canvasLocation" x="241" y="204.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="banner_icon_cloud" width="21" height="15"/>
+        <image name="banner_masking_bg" width="375" height="48"/>
+        <image name="label_btn_strategy" width="45" height="45"/>
+        <image name="label_btn_youji" width="45" height="45"/>
+        <image name="label_btn_zhoubian" width="45" height="45"/>
+        <image name="label_btn_zixun" width="45" height="45"/>
+        <image name="road2" width="1280" height="800"/>
+    </resources>
+</document>
